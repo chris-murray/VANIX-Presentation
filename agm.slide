@@ -13,12 +13,13 @@ chrmurr2@cisco.com
 - past years activities
 - incidents on the fabric
 - planned for this year
+.image img/VANIX-Logo.png 100 _
  
 * who's who..
 
 2013 - present
 
- Chris Murray, Comitee Chair, Vice-Chair VanIX Board of Directors
+ Chris Murray (OpenDNS), Chair
  Sam Buss (Peer1)
  Rory Erickson (PoF)
  Ron Grant (Skyway West)
@@ -48,6 +49,16 @@ The goal was to pickup both BCNET and Peer1 PIX participants.
 
 * And now for a diagram!
 - Diagram goes here!
+.image img/Ron-Swanson-emotional.gif 200 _
+
+* Live Traffic Graphs!
+* Daily
+.image http://neteng-vanix-images.s3-website-us-west-1.amazonaws.com/day-vanix.png 300 _
+* Weekly
+.image http://neteng-vanix-images.s3-website-us-west-1.amazonaws.com/week-vanix.png 300 _
+* Monthly
+.image http://neteng-vanix-images.s3-website-us-west-1.amazonaws.com/month-vanix.png 300 _
+
 
 * 2015 projects
 - ASN
@@ -75,4 +86,3 @@ The goal was to pickup both BCNET and Peer1 PIX participants.
 
 * a random image
 
-.image json/img/mindblown.gif 500 _
