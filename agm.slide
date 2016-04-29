@@ -1,0 +1,78 @@
+Vancouver Internet Exchange
+Techincal & Operations Group Report
+
+Chris Murray
+Network Engineer, OpenDNS / Cisco Systems Inc.
+chrmurr2@cisco.com
+
+* agenda
+
+- who's who
+- a brief technical history of the IX
+- current architecture
+- past years activities
+- incidents on the fabric
+- planned for this year
+ 
+* who's who..
+
+2013 - present
+
+ Chris Murray, Comitee Chair, Vice-Chair VanIX Board of Directors
+ Sam Buss (Peer1)
+ Rory Erickson (PoF)
+ Ron Grant (Skyway West)
+ Marilyn Hay (BCNET)
+ Scott Jamieson (City of Coquitlam)
+ Alvaro Pereira (OpenDNS)
+ Tom Samplonius (Urban Networks)
+ Andree Toonk (OpenDNS)
+ Gary Wachniak (Columbia Networks)
+ Alvin Wong (OpenDNS)
+ Toby Wong (BCNET)
+
+new for 2016!
+
+ Solomon Huang (OpenDNS)
+ Antonio Dal Sasso (Harbour Centre)
+
+* some brief history
+
+started with one switch, and then another.
+
+- Peer1 donated a switch, @ 555 West Hastings Street, 6b MMR.
+- Juniper Networks donated the 2nd switch, @ 1050 W. Pender, Cologix VAN2
+- BCNET donated switch located in 515 West Hastings St.
+
+The goal was to pickup both BCNET and Peer1 PIX participants.
+
+* And now for a diagram!
+- Diagram goes here!
+
+* 2015 projects
+- ASN
+- route servers
+- firmware upgrades
+- getting spun up.
+- capacity planning
+
+* 2016 projects
+
+- extension policy
+- fabric expansion
+- power supply addition in 6b
+- member portal
+- 2nd route server
+
+* incidents
+
+- unknown unicast
+- SNMP counter issues
+- "Hot" optic in 6b MMR
+- IX Prefix hijack
+
+* questions
+
+* a random image
+
+.image json/img/mindblown.gif 500 _
