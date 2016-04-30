@@ -14,7 +14,7 @@ chrmurr2@cisco.com
 - incidents on the fabric
 - planned for this year
 .image img/VANIX-Logo.png 100 _
- 
+
 * who's who..
 
 2013 - present
@@ -48,8 +48,7 @@ started with one switch, and then another.
 The goal was to pickup both BCNET and Peer1 PIX participants.
 
 * And now for a diagram!
-- Diagram goes here!
-.image img/Ron-Swanson-emotional.gif 200 _
+.image /img/highlevelvanix.png 600 _
 
 * Live Traffic Graphs!
 * Daily
@@ -59,30 +58,100 @@ The goal was to pickup both BCNET and Peer1 PIX participants.
 * Monthly
 .image http://neteng-vanix-images.s3-website-us-west-1.amazonaws.com/month-vanix.png 300 _
 
+* traffic growth!
+- started at 1Gbpss, quickly grew to 3Gbps
+- was at 4Gbps for a now peaking at 22Gbps!
+- 3rd largest IX in Canada based on number of Peers and traffic volume.
+  (QIX #2, TorIX #1)
 
+
+* 2015 projects
 * 2015 projects
 - ASN
 - route servers
 - firmware upgrades
-- getting spun up.
 - capacity planning
 
-* 2016 projects
+* ASN
+- Was blocking progress on the route servers
+- getting an AS was also blocked by getting the organization setup.
 
+AS 64234 was assigned to VanIX by ARIN, we lucked out and got a 16bit AS.
+- easier to deploy route-servers with filters.
+
+* route servers
+- deployed on OpenDNS donated hardware
+- fully automated deploy, all peers are added as passive, simply configure a session and off you go!
+
+* JUNOS upgrades
+- hit a bug in JUNOS on the Cologix core switch
+- prevented SNMP polling.
+- used an upgrade procedure first used by LONAP, blocked BGP (TCP Port 179) on the fabric!
+- worked great, only one peer was paranoid and shut their sessions
+
+* capacity and procedure planning
+- a lot of efforts have gone into planning
+- new org, was a scrappy startup running on donations, had to get a plan in place to shift to a 'going concern'
+- what to do with the PIX was a big topic of many discussions
+- attracting new peers and growing traffic
+
+* new peers!
+- Cloudflare
+
+
+* 2016 projects
+* 2016 projects
 - extension policy
 - fabric expansion
 - power supply addition in 6b
 - member portal
 - 2nd route server
 
-* incidents
+* extension policy
+- deciding if we want to do extensions, and if so what requirements do we have -- still in progress
+- has to deliver value to VanIX (participants) and not take away from existing efforts
+- we do know that we have to have a distributed fabric.
+- high quality, its early days and need to be reliable.
 
+* fabric expansion
+- we have a plan to purchase a new switch to place at Peer1 (21st floor)
+- should allow us to entice PIX participants to move over to VanIX.
+- working with Harbour Centre to get an IRU for the cable runs from 6b - 21st floor.
+
+* spares and power supplies
+- core6b switch currently only has a single power supply, need to purchase a second one.
+- plan to purchase a spare switch and "JUNOS download only" J-CARE support
+- planning to purchase spare optics
+
+* rs2.vanix.ca
+- we should have access to some CIRA donated hardware for this
+- also want to have an experimental RS that does RPKI validation.
+- lots of interesting work to do here.
+
+* incidents to date
+* incidents to date
 - unknown unicast
 - SNMP counter issues
 - "Hot" optic in 6b MMR
 - IX Prefix hijack
 
-* questions
+* unknown unicast
+- this traffic occurs when a member disappears from the fabric, but remote sessions are still sending traffic towards that peer.
+- was counted towards port-security.
 
-* a random image
+* hot optic
+- part of the reason we are going to be supplying optics going forward.
+- cheap optics were causing some issues, we have seen some throw temperature warnings.
+
+* IX Peering LAN prefix hijack
+- happened several times over the last year.
+- spammers behind a russian AS advertise VanIX and other canadian IXP space in order to send spam.
+.image /img/bgpmon-vanix.png 400 _
+
+* BGP Hijacks.
+- not much we can do, well known bad actors at work here.
+- mostly UCE complaints to deal with.
+- Affected TorIX, VanIX, MBIX, etc.
+
+* questions
 
