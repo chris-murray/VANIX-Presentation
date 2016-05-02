@@ -2,8 +2,13 @@ Vancouver Internet Exchange
 Techincal & Operations Group Report
 
 Chris Murray
-Network Engineer, OpenDNS / Cisco Systems Inc.
-chrmurr2@cisco.com
+
+
+* thanks to our event sponsors!
+
+.image img/CIRA-logo25.png
+
+.image img/torix_logo2011_25.png
 
 * agenda
 
@@ -13,7 +18,6 @@ chrmurr2@cisco.com
 - past years activities
 - incidents on the fabric
 - planned for this year
-.image img/VANIX-Logo.png 100 _
 
 * who's who..
 
@@ -31,6 +35,7 @@ chrmurr2@cisco.com
  Gary Wachniak (Columbia Networks)
  Alvin Wong (OpenDNS)
  Toby Wong (BCNET)
+ Marilyn Hay (BCNET)
 
 new for 2016!
 
@@ -39,16 +44,28 @@ new for 2016!
 
 * some brief history
 
-started with one switch, and then another.
+- CIRA and BCNET hosted a townhall in September 2013.
+- The need for a community run IX was needed.
+- VanIX is the unification of BCNET and PIX efforts as a independant community.
 
 - Peer1 donated a switch, @ 555 West Hastings Street, 6b MMR.
 - Juniper Networks donated the 2nd switch, @ 1050 W. Pender, Cologix VAN2
+- Cologix Donated space, power and 2 diverse fiber paths back to 555 West Hastings.
 - BCNET donated switch located in 515 West Hastings St.
 
-The goal was to pickup both BCNET and Peer1 PIX participants.
 
 * And now for a diagram!
 .image /img/highlevelvanix.png 600 _
+
+* steady traffic and peer growth!
+- started < 1Gbps (didn't stay that way for very long)
+- notable international content networks brought to Vancouver because of VanIX
+  Cloudflare
+  Microsoft
+  OpenDNS
+
+- None of these companies would open up a PoP without an IX present.
+- we've done a good job of getting 'eyeball' networks to connect to the IX.
 
 * Live Traffic Graphs!
 * Daily
@@ -59,8 +76,6 @@ The goal was to pickup both BCNET and Peer1 PIX participants.
 .image http://neteng-vanix-images.s3-website-us-west-1.amazonaws.com/month-vanix.png 300 _
 
 * traffic growth!
-- started at 1Gbpss, quickly grew to 3Gbps
-- was at 4Gbps for a now peaking at 22Gbps!
 - 3rd largest IX in Canada based on number of Peers and traffic volume.
   (QIX #2, TorIX #1)
 
@@ -95,9 +110,6 @@ AS 64234 was assigned to VanIX by ARIN, we lucked out and got a 16bit AS.
 - what to do with the PIX was a big topic of many discussions
 - attracting new peers and growing traffic
 
-* new peers!
-- Cloudflare
-
 
 * 2016 projects
 * 2016 projects
@@ -122,6 +134,11 @@ AS 64234 was assigned to VanIX by ARIN, we lucked out and got a 16bit AS.
 - core6b switch currently only has a single power supply, need to purchase a second one.
 - plan to purchase a spare switch and "JUNOS download only" J-CARE support
 - planning to purchase spare optics
+
+* member portal
+- create a self service member portal.
+- manage technical and billing info.
+- currently evaluating IXP Manager.
 
 * rs2.vanix.ca
 - we should have access to some CIRA donated hardware for this
@@ -152,6 +169,11 @@ AS 64234 was assigned to VanIX by ARIN, we lucked out and got a 16bit AS.
 - not much we can do, well known bad actors at work here.
 - mostly UCE complaints to deal with.
 - Affected TorIX, VanIX, MBIX, etc.
+- BGPmon has a great blog post on this topic
+http://www.bgpmon.net/using-bgp-data-to-find-spammers/
 
 * questions
 
+.image img/CIRA-logo25.png
+
+.image img/torix_logo2011_25.png
