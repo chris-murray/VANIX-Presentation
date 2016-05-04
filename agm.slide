@@ -35,7 +35,6 @@ Chris Murray
  Gary Wachniak (Columbia Networks)
  Alvin Wong (OpenDNS)
  Toby Wong (BCNET)
- Marilyn Hay (BCNET)
 
 new for 2016!
 
@@ -49,7 +48,7 @@ new for 2016!
 - VanIX is the unification of BCNET and PIX efforts as a independant community.
 
 - Peer1 donated a switch, @ 555 West Hastings Street, 6b MMR.
-- Juniper Networks donated the 2nd switch, @ 1050 W. Pender, Cologix VAN2
+- Juniper Networks donated the 2nd switch, @ 1050 W. Pender, Cologix VAN2.
 - Cologix Donated space, power and 2 diverse fiber paths back to 555 West Hastings.
 - BCNET donated switch located in 515 West Hastings St.
 
@@ -58,8 +57,8 @@ new for 2016!
 .image /img/highlevelvanix.png 600 _
 
 * steady traffic and peer growth!
-- started < 1Gbps (didn't stay that way for very long)
-- notable international content networks brought to Vancouver because of VanIX
+- started < 1Gbps (didn't stay that way for very long).
+- notable international content networks brought to Vancouver because of VanIX.
   Cloudflare
   Microsoft
   OpenDNS
@@ -86,9 +85,10 @@ new for 2016!
 - route servers
 - firmware upgrades
 - capacity planning
+- traffic graphs
 
 * ASN
-- Was blocking progress on the route servers
+- Was blocking progress on the route servers.
 - getting an AS was also blocked by getting the organization setup.
 
 AS 64234 was assigned to VanIX by ARIN, we lucked out and got a 16bit AS.
@@ -105,35 +105,39 @@ AS 64234 was assigned to VanIX by ARIN, we lucked out and got a 16bit AS.
 - worked great, only one peer was paranoid and shut their sessions
 
 * capacity and procedure planning
-- a lot of efforts have gone into planning
-- new org, was a scrappy startup running on donations, had to get a plan in place to shift to a 'going concern'
-- what to do with the PIX was a big topic of many discussions
-- attracting new peers and growing traffic
+- a lot of efforts have gone into planning.
+- new org, was a scrappy startup running on donations, had to get a plan in place to shift to a 'going concern', choosing vendors etc.
+- what to do with the PIX was a big topic of many discussions.
+- attracting new peers and growing traffic.
 
+* traffic graphs
+- broken snmp polling slowed this down.
+- graphs now live on the website.
+- important to attract new peers.
 
 * 2016 projects
 * 2016 projects
-- extension policy
-- fabric expansion
-- power supply addition in 6b
-- member portal
-- 2nd route server
+- extension policy.
+- fabric expansion.
+- power supply addition in 6b.
+- member portal.
+- 2nd route server.
 
 * extension policy
-- deciding if we want to do extensions, and if so what requirements do we have -- still in progress
-- has to deliver value to VanIX (participants) and not take away from existing efforts
+- deciding if we want to do extensions, and if so what requirements do we have -- still in progress.
+- has to deliver value to VanIX (participants) and not take away from existing efforts.
 - we do know that we have to have a distributed fabric.
 - high quality, its early days and need to be reliable.
 
 * fabric expansion
-- we have a plan to purchase a new switch to place at Peer1 (21st floor)
+- we have a plan to purchase a new switch to place at Peer1 (21st floor).
 - should allow us to entice PIX participants to move over to VanIX.
 - working with Harbour Centre to get an IRU for the cable runs from 6b - 21st floor.
 
 * spares and power supplies
 - core6b switch currently only has a single power supply, need to purchase a second one.
-- plan to purchase a spare switch and "JUNOS download only" J-CARE support
-- planning to purchase spare optics
+- plan to purchase a spare switch and "JUNOS download only" J-CARE support.
+- planning to purchase spare optics.
 
 * member portal
 - create a self service member portal.
@@ -141,7 +145,7 @@ AS 64234 was assigned to VanIX by ARIN, we lucked out and got a 16bit AS.
 - currently evaluating IXP Manager.
 
 * rs2.vanix.ca
-- we should have access to some CIRA donated hardware for this
+- we should have access to some CIRA donated hardware for this.
 - also want to have an experimental RS that does RPKI validation.
 - lots of interesting work to do here.
 
@@ -169,7 +173,7 @@ AS 64234 was assigned to VanIX by ARIN, we lucked out and got a 16bit AS.
 - not much we can do, well known bad actors at work here.
 - mostly UCE complaints to deal with.
 - Affected TorIX, VanIX, MBIX, etc.
-- BGPmon has a great blog post on this topic
+- BGPmon has a great blog post on this topic!
 http://www.bgpmon.net/using-bgp-data-to-find-spammers/
 
 * questions
